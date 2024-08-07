@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+:root{
+    --primary-color:#FFD700
+    ;    ;
+    --primary-color-dark:#d7204e;
+    --secondary-color:#262020;
+    --text-color:#1f2937;
+    --extra-light:#ffffff;
+
+    --max-width: 600px;
+}
+body{
+    background-color: var(--secondary-color);
+    font-family: "Playwrite DE Grund", cursive;
+
+}
+.navbar {
+    padding: 1.5rem 0; 
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    color: var(--extra-light);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logoimg {
+    height: 2.5rem;
+    width: 6rem;
+    border: 1px 1px 1px #171427;
+}
+#001{
+    position: absolute;
+}
+#head{
+    position: relative;
+    top: -3.5rem;
+    color: #FFD700;
+}
+#feedback{
+    color: #FFD700;
+}
